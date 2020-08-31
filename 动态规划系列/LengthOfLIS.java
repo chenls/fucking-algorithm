@@ -53,8 +53,8 @@ public class LengthOfLIS {
 
     public static void main(String args[]) { 
         int nums[] ={1, 4, 2, 7, 4, 6};
-        // int ret = lengthOfLIS(nums);
-        // System.err.println("ret = " + ret);
+        int ret = lengthOfLIS(nums);
+        System.err.println("ret = " + ret);
 
         ret = lengthOfLIS2(nums);
         System.err.println("ret = " + ret);
